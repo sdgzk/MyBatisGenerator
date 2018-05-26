@@ -17,7 +17,7 @@ public class Generator {
         boolean overwrite = true;
 
         //需要指定上一步创建的配置文件在计算机中的绝对路径
-        File configFile = new File("F:/workspace/MyBatisGenerator/src/generatorConfig.xml"); 
+        File configFile = new File("F:/workspacedong/MyBatisGenerator/src/generatorConfig.xml"); 
         ConfigurationParser cp = new ConfigurationParser(warnings);
         Configuration config = cp.parseConfiguration(configFile);
         DefaultShellCallback callback = new DefaultShellCallback(overwrite);
