@@ -16,7 +16,7 @@ public class Generator {
         List<String> warnings = new ArrayList<String>();
         boolean overwrite = true;
 
-        //需要指定上一步创建的配置文件在计算机中的绝对路径 d
+        //需要指定上一步创建的配置文件在计算机中的绝对路径 s
         File configFile = new File("E:/workspacedong/MyBatisGenerator/src/generatorConfig.xml"); 
         ConfigurationParser cp = new ConfigurationParser(warnings);
         Configuration config = cp.parseConfiguration(configFile);
